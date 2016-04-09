@@ -1,0 +1,92 @@
+{
+  "total_number": 200,
+  "result_list": [
+    {
+      "interface": [
+        {
+          "status": "up",
+          "name": "fc2/17",
+          "power": -3.4,
+          "fcid": "10:00:00:90:fa:b4:32:92",
+          "lastchange": "2015-11-28 22:52:43",
+          "mode": "F",
+          "device": "NF97SN32-L3",
+          "vsan": "20",
+          "description": "RH5885_010100119873_B\r"
+        },
+        {
+          "status": "up",
+          "name": "fc1/39",
+          "power": -2.68,
+          "fcid": "24:02:68:a8:28:62:a1:4d",
+          "lastchange": "2015-09-23 20:57:17",
+          "mode": "F",
+          "device": "NF97SN22-L3",
+          "vsan": "20",
+          "description": "HW_D18K(148)_2A4E1_B\r"
+        }
+      ],
+      "vsan": "20",
+      "name": "RH5885_010100119873_HW148_2A4E1",
+      "area": "L3"
+    },
+    {
+      "interface": [
+        {
+          "status": "up",
+          "name": "fc2/17",
+          "power": -3.4,
+          "fcid": "10:00:00:90:fa:b4:32:92",
+          "lastchange": "2015-11-28 22:52:43",
+          "mode": "F",
+          "device": "NF97SN32-L3",
+          "vsan": "20",
+          "description": "RH5885_010100119873_B\r"
+        },
+        {
+          "status": "up",
+          "name": "fc1/39",
+          "power": -2.68,
+          "fcid": "24:02:68:a8:28:62:a1:4d",
+          "lastchange": "2015-09-23 20:57:17",
+          "mode": "F",
+          "device": "NF97SN22-L3",
+          "vsan": "20",
+          "description": "HW_D18K(148)_2A4E1_B\r"
+        }
+      ],
+      "vsan": "20",
+      "name": "RH5885_010100119873_HW148_2A4E1",
+      "area": "L3"
+    },
+    {
+      "interface": [
+        {
+          "status": "up",
+          "name": "fc2/17",
+          "power": -3.4,
+          "fcid": "10:00:00:90:fa:b4:32:92",
+          "lastchange": "2015-11-28 22:52:43",
+          "mode": "F",
+          "device": "NF97SN32-L3",
+          "vsan": "20",
+          "description": "RH5885_010100119873_B\r"
+        },
+        {
+          "status": "up",
+          "name": "fc1/39",
+          "power": -2.68,
+          "fcid": "24:02:68:a8:28:62:a1:4d",
+          "lastchange": "2015-09-23 20:57:17",
+          "mode": "F",
+          "device": "NF97SN22-L3",
+          "vsan": "20",
+          "description": "HW_D18K(148)_2A4E1_B\r"
+        }
+      ],
+      "vsan": "20",
+      "name": "RH5885_010100119873_HW148_2A4E1",
+      "area": "L3"
+    }
+  ]
+}

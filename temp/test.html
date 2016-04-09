@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <script src="./core.min.js"></script>
+    <title></title>
+    <script>
+        z.ajax.post("/search/",{"interface":"fc7/1","device":"NF97SN03-BK"},{
+            complete: function (result, success, timeout) {
+                console.log(result);
+            }
+        })
+    </script>
+</head>
+<body>
+
+</body>
+</html>

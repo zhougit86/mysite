@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="../../libs/core.min.js"></script>
+    <link rel="stylesheet" href="../../libs/bootstrap.css">
+    <link rel="stylesheet" href="../../libs/plugins/datatables/dataTables.bootstrap.css">
+    <link rel="stylesheet" href="../../libs/fonts/font-awesome.css">
+    <link rel="stylesheet" href="../../libs/AdminLTE.css">
+    <link rel="stylesheet" href="../../libs/altskins/skin-green-light.css">
+
+    <script>
+        z.ready(function () {
+            z.ajax.get("./header.html", {
+                dataType: "html",
+                complete: function (result, success, timeout) {
+                    var header = z.dom.create("header", "main-header");
+                    header.innerHTML = result;
+                    document.body.appendChild(header);
+                    z.event.onclick(".sidebar-toggle", function () {
+                        z.dom.toggleClass(document.body, "sidebar-collapse");
+                    });
+                }
+            });
+            z.ajax.get("./aside.html", {
+                dataType: "html",
+                complete: function (result, success, timeout) {
+                    var aside = z.dom.create("aside", "main-sidebar");
+                    aside.innerHTML = result;
+                    document.body.appendChild(aside);
+                }
+            });
+
+            //document.getElementById("innerContent").innerHTML = ' <object id="content" style="width: 100%" type="text/html" data="./header.html?aa=10"  />';
+        });
+    </script>
+</head>
+<body class="skin-green-light sidebar-mini">
+</body>
+</html>

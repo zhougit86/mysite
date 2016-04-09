@@ -1,0 +1,89 @@
+{
+  "result_list": [
+    {
+      "gateway_ip": "10.75.44.254",
+      "gateway_list": [
+        "aslab-gw2-c3560::Vlan1::10.75.44.252",
+        "aslab-gw1-c3550::Vlan1::10.75.44.254"
+      ],
+      "prefix_length": "24",
+      "size": 256,
+      "subnet_mask": "255.255.255.0",
+      "subnet_net": "10.75.44.0",
+      "timestamps": "2016-03-15 16:12:46",
+      "used_count": 89,
+      "zone": "JD"
+    },
+    {
+      "gateway_ip": "10.124.1.254",
+      "gateway_list": [
+        "aslab-gw2-c3560::Vlan241::10.124.1.252",
+        "aslab-gw1-c3550::Vlan241::10.124.1.254"
+      ],
+      "prefix_length": "24",
+      "size": 256,
+      "subnet_mask": "255.255.255.0",
+      "subnet_net": "10.124.1.0",
+      "timestamps": "2016-03-15 16:12:46",
+      "used_count": 130,
+      "zone": "JD"
+    },
+    {
+      "gateway_ip": "10.124.2.254",
+      "gateway_list": [
+        "aslab-gw2-c3560::Vlan242::10.124.2.252",
+        "aslab-gw1-c3550::Vlan242::10.124.2.254"
+      ],
+      "prefix_length": "24",
+      "size": 256,
+      "subnet_mask": "255.255.255.0",
+      "subnet_net": "10.124.2.0",
+      "timestamps": "2016-03-15 16:12:46",
+      "used_count": 10,
+      "zone": "JD"
+    },
+    {
+      "gateway_ip": "10.75.44.254",
+      "gateway_list": [
+        "aslab-gw2-c3560::Vlan1::10.75.44.252",
+        "aslab-gw1-c3550::Vlan1::10.75.44.254"
+      ],
+      "prefix_length": "24",
+      "size": 256,
+      "subnet_mask": "255.255.255.0",
+      "subnet_net": "10.75.44.0",
+      "timestamps": "2016-03-15 16:15:26",
+      "used_count": 89,
+      "zone": "WGQ"
+    },
+    {
+      "gateway_ip": "10.124.1.254",
+      "gateway_list": [
+        "aslab-gw2-c3560::Vlan241::10.124.1.252",
+        "aslab-gw1-c3550::Vlan241::10.124.1.254"
+      ],
+      "prefix_length": "24",
+      "size": 256,
+      "subnet_mask": "255.255.255.0",
+      "subnet_net": "10.124.1.0",
+      "timestamps": "2016-03-15 16:15:26",
+      "used_count": 130,
+      "zone": "WGQ"
+    },
+    {
+      "gateway_ip": "10.124.2.254",
+      "gateway_list": [
+        "aslab-gw2-c3560::Vlan242::10.124.2.252",
+        "aslab-gw1-c3550::Vlan242::10.124.2.254"
+      ],
+      "prefix_length": "24",
+      "size": 256,
+      "subnet_mask": "255.255.255.0",
+      "subnet_net": "10.124.2.0",
+      "timestamps": "2016-03-15 16:15:26",
+      "used_count": 10,
+      "zone": "WGQ"
+    }
+  ],
+  "total_number": 6
+}

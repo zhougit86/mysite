@@ -1,0 +1,13 @@
+{
+  "config": {
+    "access_switch_api": "",
+    "gateway_api": "",
+    "pool_size": 20,
+    "snmp": {
+      "community": "cisco",
+      "retries": 1,
+      "timeout": 5
+    },
+    "time_interval": 600
+  }
+}

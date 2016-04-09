@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>{Title}</title>
+
+    <link rel="stylesheet" href="../../libs/bootstrap.css">
+    <link rel="stylesheet" href="../../libs/plugins/datatables/dataTables.bootstrap.css">
+    <link rel="stylesheet" href="../../libs/fonts/font-awesome.css">
+    <link rel="stylesheet" href="../../libs/AdminLTE.css">
+    <link rel="stylesheet" href="../../libs/tsa.css">
+
+    <!--<script src="../../libs/jquery.js"></script>-->
+    <!--<script src="../../libs/bootstrap.js"></script>-->
+    <script src="../../libs/core.min.js"></script>
+    <script src="../../utils/DomUtil.js"></script>
+    <script src="../../utils/GridUtil.js"></script>
+    <script src="../../utils/TSAUtil.js"></script>
+    <script src="../../utils/AjaxDataUrls.js"></script>
+    <script src="../../utils/AjaxDataUtil.js"></script>
+    <script src="../../modules/_common/TablePageJS.js"></script>
+
+    <style>
+        .box {
+            border-top-width: 0;
+            margin-bottom: 0;
+            padding: 3px;
+        }
+
+        .btn {
+            font-size: 1.2em;
+        }
+
+    </style>
+</head>
+<body>
+<div class="content-wrapper">
+    <div class="box" style="text-align: right;">
+        <div style=" width:220px;margin-top: 10px;display: inline-block">
+            <div class="input-group input-group-sm">
+                <input id="searchInput" class="form-control">
+                    <span class="input-group-btn">
+                      <button id="searchBtn" class="btn btn-success btn-flat">
+                          <i class="fa fa-search"></i>
+                      </button>
+                    </span>
+            </div>
+        </div>
+    </div>
+    <div id="tableDiv" class="box">
+        <div>
+            <table class="table table-bordered table-hover dataTable" role="grid">
+                <thead id="dataTHead"></thead>
+                <tbody id="dataTable"></tbody>
+                <tfoot id="dataTFoot" style="display: none"></tfoot>
+            </table>
+        </div>
+        <div style="min-height: 3em">
+            <div class="col-sm-5">
+                <div id="tableInfo" class="dataTables_info"></div>
+            </div>
+            <div class="col-sm-7" style="text-align: right">
+                <div class="p_paginate_size">
+                    <select id="pageSizeSelect" class="form-control">
+                        <option value="10">10</option>
+                        <option value="20">20</option>
+                        <option value="50" selected>50</option>
+                        <option value="100">100</option>
+                    </select>
+                </div>
+
+                <div class="dataTables_paginate paging_simple_numbers">
+                    <ul id="pagination" class="pagination">
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

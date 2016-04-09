@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="../../libs/bootstrap.css">
+    <link rel="stylesheet" href="../../libs/AdminLTE.css">
+
+    <link rel="stylesheet" href="../../libs/tsa.css">
+
+
+    <script src="../../libs/core.min.js"></script>
+    <script src="../../utils/DomUtil.js"></script>
+
+    <script>
+        z.ready(function () {
+            var url = z.browser.getPageVar("url");
+            z.dom.attr("form", "action", url);
+            z.event.onclick("#selectBtn", function (evt) {
+                z.dom.get("#selectInput").click();
+                evt.preventDefault();
+            });
+            z.event.onchange("#selectInput", function () {
+                var files = z.dom.get("#selectInput").value;
+                z.dom.val("#filesDiv", files || "");
+                if (files) {
+                    z.dom.show("#submitBtn");
+                } else {
+                    z.dom.hide("#submitBtn");
+                }
+            });
+        });
+    </script>
+</head>
+<body style="padding: 10px;">
+<form method="post" enctype="multipart/form-data">
+    选择需要上传的文件:
+    <input id="selectInput" type="file" name="fileToUpload" id="fileToUpload" style="display: none">
+    <button id="selectBtn" class="btn btn-success">选择文件</button>
+    <div id="filesDiv"></div>
+    <br>
+    <input id="submitBtn" type="submit" class="btn btn-primary" value="Upload File" name="submit" style="display: none">
+</form>
+
+</body>
+</html>

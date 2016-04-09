@@ -1,0 +1,78 @@
+{
+  "result_list": [
+    {
+      "hostname": "aslab-gw2-c3560",
+      "ip_address": "10.75.44.252",
+      "timestamps": "2016-03-15 13:03:25",
+      "community": "test",
+      "zone": "JD"
+    },
+    {
+      "hostname": "aslab-gw1-c3550",
+      "ip_address": "10.75.44.253",
+      "timestamps": "2016-03-15 13:03:25",
+      "zone": "JD"
+    },
+    {
+      "hostname": "ASLAB-BB-SW1-C4507R",
+      "ip_address": "10.75.44.250",
+      "timestamps": "2016-03-15 13:03:25",
+      "zone": "JD"
+    },
+    {
+      "hostname": "AS-LAB-3750-2",
+      "ip_address": "10.75.44.3",
+      "timestamps": "2016-03-15 13:03:25",
+      "zone": "JD"
+    },
+    {
+      "hostname": "AS-LAB-3750-3",
+      "ip_address": "10.75.44.4",
+      "timestamps": "2016-03-15 13:03:25",
+      "zone": "JD"
+    },
+    {
+      "hostname": "AS-LAB-3750-1",
+      "ip_address": "10.75.44.5",
+      "timestamps": "2016-03-15 13:03:25",
+      "zone": "JD"
+    },
+    {
+      "hostname": "aslab-gw2-c3560",
+      "ip_address": "10.75.44.252",
+      "timestamps": "2016-03-15 13:05:17",
+      "zone": "WGQ"
+    },
+    {
+      "hostname": "aslab-gw1-c3550",
+      "ip_address": "10.75.44.253",
+      "timestamps": "2016-03-15 13:05:17",
+      "zone": "WGQ"
+    },
+    {
+      "hostname": "ASLAB-BB-SW1-C4507R",
+      "ip_address": "10.75.44.250",
+      "timestamps": "2016-03-15 13:05:17",
+      "zone": "WGQ"
+    },
+    {
+      "hostname": "AS-LAB-3750-2",
+      "ip_address": "10.75.44.3",
+      "timestamps": "2016-03-15 13:05:17",
+      "zone": "WGQ"
+    },
+    {
+      "hostname": "AS-LAB-3750-3",
+      "ip_address": "10.75.44.4",
+      "timestamps": "2016-03-15 13:05:17",
+      "zone": "WGQ"
+    },
+    {
+      "hostname": "AS-LAB-3750-1",
+      "ip_address": "10.75.44.5",
+      "timestamps": "2016-03-15 13:05:17",
+      "zone": "WGQ"
+    }
+  ],
+  "total_number": 12
+}

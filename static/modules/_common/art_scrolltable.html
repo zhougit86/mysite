@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../../libs/tsa.css">
+    <link rel="stylesheet" href="../../libs/grid.css">
+    <link rel="stylesheet" href="../../libs/bootstrap.css">
+
+    <script src="../../libs/jquery.js"></script>
+    <script src="../../utils/DomUtil.js"></script>
+    <script src="../../utils/GridUtil.js"></script>
+
+    <style>
+        .p-fill.with_pagination {
+            bottom: 2.6em;
+        }
+
+        .table-pagination {
+            position: absolute;
+            bottom: 0;
+            height: 2.6em;
+            width: 100%;
+            border-top: 1px solid #e5e5e5;
+            box-sizing: border-box;
+        }
+
+        .table-pagination .pagination {
+            margin: 0.2em;
+            height: 2em;
+        }
+    </style>
+    <title></title>
+</head>
+<body>
+<div class="p-fill">
+    <div class="p-toolbar"></div>
+    <div class="p-fill with_toolbar">
+        <div id="tableDiv" class="p-fill with_pagination">
+            <div class="table-head" style="height: 2.6em">
+                <div class="table-head-wrap">
+                    <table class="grid">
+                        <colgroup>
+                            <col style="width:80px">
+                            <col>
+                            <col>
+                            <col style="width:150px">
+                        </colgroup>
+                        <thead>
+                        <tr>
+                            <th>
+                                <span class="tab-link">序号xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</span>
+                            </th>
+                            <th>
+                                <span class="tab-link">姓名</span>
+                            </th>
+                            <th>
+                                <span class="tab-link">年龄</span>
+                            </th>
+                            <th>
+                                <span class="tab-link">地址</span>
+                            </th>
+                        </tr>
+                        </thead>
+                    </table>
+                </div>
+            </div>
+            <div class="table-content p-fill" style="top: 2.6em">
+                <table class="grid">
+                    <colgroup>
+                        <col style="width:80px">
+                        <col>
+                        <col>
+                        <col style="width:150px">
+                    </colgroup>
+                    <tbody dir="dataTable">
+                    <tr>
+                        <td>
+                            <div>001</div>
+                        </td>
+                        <td>
+                            <div>小明</div>
+                        </td>
+                        <td>
+                            <div>23</div>
+                        </td>
+                        <td>
+                            <div>上sssssssssssssssssssssssssssssssssssss海</div>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div id="paginationDiv" class="table-pagination">
+            <div class="box-footer clearfix">
+                <ul class="pagination pagination-sm no-margin pull-right">
+                    <li><a href="#">&laquo;</a></li>
+                    <li><a href="#">1</a></li>
+                    <li><a href="#">2</a></li>
+                    <li><a href="#">3</a></li>
+                    <li><a href="#">&raquo;</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class=""></div>
+
+</body>
+</html>

@@ -1,0 +1,156 @@
+/**
+ * Created by taozh on 2016/2/28.
+ */
+html,
+body {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.p-fill {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    overflow: auto;
+}
+
+.p-toolbar {
+    padding: 3px;
+    border-top-width: 0;
+    margin-bottom: 0;
+}
+
+.p-toolbar button {
+    vertical-align: top;
+}
+
+.p-toolbar .p-search {
+    width: 220px;
+    float: right;
+    display: inline-block
+}
+
+.user-select-none {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/*table*/
+.table tbody tr:first-child td {
+    border-top-width: 0;
+}
+
+.table th {
+    position: relative;
+}
+
+.table .p-sortable {
+    cursor: pointer;
+}
+
+.table .p-sortable i {
+    position: absolute;
+    right: 2px;
+    margin-top: 5px;
+}
+
+.dataTables_paginate {
+    display: inline-block;
+}
+
+.p_paginate_size {
+    width: auto;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 10px;
+}
+
+.p_paginate_size select {
+    margin: 2px 0;
+}
+
+.sidebar-menu li.active a {
+    border-right: 3px solid #00a65a !important;
+}
+
+.fix-header .main-header {
+    position: fixed;
+    width: 100%;
+}
+
+.fix-header .content-wrapper {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.table tbody td {
+    padding: 5px !important;
+}
+
+.table .timestamps {
+    font-size: inherit;
+}
+
+.table tr td .progress {
+    width: 98%;;
+    min-width: 130px;
+    border-radius: 3px;
+    margin: 3px;
+    height: 22px;
+}
+
+.treeview .treeview-menu {
+    display: none !important;
+}
+
+.treeview.expand .treeview-menu {
+    display: block !important;;
+}
+
+.treeview.expand > a {
+    background: #f4f4f5;
+}
+
+.treeview.expand > a > .fa-angle-left {
+    -webkit-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+}
+
+.p-login {
+    position: absolute;
+    right: 6px;
+    top: -3px;
+    z-index: 2000;
+}
+
+.p-login .btn-link {
+    padding: 3px;
+    color: #FFFFFF;
+}
+
+.sidebar-menu .fa-circle {
+    margin-left: -5px;
+    font-size: 1.6em
+}
+
+.sidebar-menu .p-icon {
+    margin-left: -1.48em;
+    vertical-align: top;
+    margin-top: 0.28em;;
+    color: #FFFFFF
+}
+.sidebar-menu li span{
+    display: inline-block;
+    vertical-align: top;
+}

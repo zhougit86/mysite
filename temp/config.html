@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>配置下发</title>
+
+    <link rel="stylesheet" href="../static/libs/bootstrap.css">
+    <link rel="stylesheet" href="../static/libs/plugins/datatables/dataTables.bootstrap.css">
+    <link rel="stylesheet" href="../static/libs/fonts/font-awesome.css">
+    <link rel="stylesheet" href="../static/libs/AdminLTE.css">
+    <link rel="stylesheet" href="../static/libs/altskins/skin-green-light.css">
+
+
+    <link rel="stylesheet" href="../static/libs/tsa.css">
+
+    <script src="../static/libs/jquery.js"></script>
+    <script src="../static/libs/bootstrap.js"></script>
+
+    <script src="../static/libs/core.min.js"></script>
+    <script src="../static/utils/DomUtil.js"></script>
+    <script src="../static/utils/TSAUtil.js"></script>
+    <script src="../static/utils/AjaxDataUtil.js"></script>
+    <script src="../static/modules/zone/ZoneAjaxDataUrls.js"></script>
+
+    <script src="../static/modules/zoneconfig_gen/config.js"></script>
+    <style>
+        .box {
+            margin-bottom: 0;
+        }
+
+        input {
+            max-width: 360px;
+        }
+
+    </style>
+</head>
+<body class="skin-green-light sidebar-mini fix-header">
+<div class="content-wrapper">
+    <div class="box p-toolbar" style=" border-top-width: 0;padding: 3px 3px 6px;">
+        <button id="sendBtn" class="btn btn-sm btn-success">生成配置</button>
+    </div>
+    <section class="content" style="padding: 0 15px 15px;">
+        <div class="row">
+            <div class="box box-success">
+                <div class="box-header with-border">
+                    <h3 class="box-title">WWPN</h3>
+                </div>
+                <form>
+                    <div class="form-group">
+                        <textarea id="wwpnTA" class="form-control" rows="10" placeholder="wwpn1-wwpn2$wwpn2-wwpn3-wwpn4..."></textarea>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="box box-primary">
+                <div class="box-header with-border">
+                    <h3 class="box-title">配置</h3>
+                </div>
+                <form>
+                    <div class="form-group">
+                        <pre id="resultPRE" style="min-height: 200px;">
+
+                        </pre>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+</div>
+</body>
+</html>

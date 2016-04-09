@@ -1,0 +1,212 @@
+{
+  "result_list": [
+    {
+      "hostname": "aslab-gw2-c3560",
+      "is_uplink": false,
+      "local_port": "Vlan1",
+      "neighbor": "",
+      "remote_port": "",
+      "timestamps": "2016-03-15 13:03:25",
+      "zone": "JD"
+    },
+    {
+      "hostname": "aslab-gw2-c3560",
+      "is_uplink": true,
+      "local_port": "GigabitEthernet0/1",
+      "neighbor": "bjn6-lab-gw2",
+      "remote_port": "GigabitEthernet1/15",
+      "timestamps": "2016-03-15 13:03:25",
+      "zone": "JD"
+    },
+    {
+      "hostname": "aslab-gw2-c3560",
+      "is_uplink": false,
+      "local_port": "Vlan241",
+      "neighbor": "",
+      "remote_port": "",
+      "timestamps": "2016-03-15 13:03:25",
+      "zone": "JD"
+    },
+    {
+      "hostname": "aslab-gw2-c3560",
+      "is_uplink": false,
+      "local_port": "Vlan242",
+      "neighbor": "",
+      "remote_port": "",
+      "timestamps": "2016-03-15 13:03:25",
+      "zone": "JD"
+    },
+    {
+      "hostname": "aslab-gw2-c3560",
+      "is_uplink": true,
+      "local_port": "GigabitEthernet0/13",
+      "neighbor": "AS-CommServer-01",
+      "remote_port": "GigabitEthernet0/2",
+      "timestamps": "2016-03-15 13:03:25",
+      "zone": "JD"
+    },
+    {
+      "hostname": "aslab-gw1-c3550",
+      "is_uplink": false,
+      "local_port": "Vlan1",
+      "neighbor": "",
+      "remote_port": "",
+      "timestamps": "2016-03-15 13:03:25",
+      "zone": "JD"
+    },
+    {
+      "hostname": "aslab-gw1-c3550",
+      "is_uplink": true,
+      "local_port": "FastEthernet0/1",
+      "neighbor": "bjn6-lab-gw1",
+      "remote_port": "GigabitEthernet1/15",
+      "timestamps": "2016-03-15 13:03:25",
+      "zone": "JD"
+    },
+    {
+      "hostname": "aslab-gw1-c3550",
+      "is_uplink": false,
+      "local_port": "Vlan241",
+      "neighbor": "",
+      "remote_port": "",
+      "timestamps": "2016-03-15 13:03:25",
+      "zone": "JD"
+    },
+    {
+      "hostname": "aslab-gw1-c3550",
+      "is_uplink": false,
+      "local_port": "Vlan242",
+      "neighbor": "",
+      "remote_port": "",
+      "timestamps": "2016-03-15 13:03:25",
+      "zone": "JD"
+    },
+    {
+      "hostname": "aslab-gw1-c3550",
+      "is_uplink": false,
+      "local_port": "FastEthernet0/15",
+      "neighbor": "",
+      "remote_port": "",
+      "timestamps": "2016-03-15 13:03:25",
+      "zone": "JD"
+    },
+    {
+      "hostname": "aslab-gw1-c3550",
+      "is_uplink": true,
+      "local_port": "FastEthernet0/13",
+      "neighbor": "AS-CommServer-01",
+      "remote_port": "GigabitEthernet0/0",
+      "timestamps": "2016-03-15 13:03:25",
+      "zone": "JD"
+    },
+    {
+      "hostname": "ASLAB-BB-SW1-C4507R",
+      "is_uplink": false,
+      "local_port": "Vlan1",
+      "neighbor": "",
+      "remote_port": "",
+      "timestamps": "2016-03-15 13:03:25",
+      "zone": "JD"
+    },
+    {
+      "hostname": "ASLAB-BB-SW1-C4507R",
+      "is_uplink": false,
+      "local_port": "Vlan30",
+      "neighbor": "",
+      "remote_port": "",
+      "timestamps": "2016-03-15 13:03:25",
+      "zone": "JD"
+    },
+    {
+      "hostname": "ASLAB-BB-SW1-C4507R",
+      "is_uplink": false,
+      "local_port": "Vlan99",
+      "neighbor": "",
+      "remote_port": "",
+      "timestamps": "2016-03-15 13:03:25",
+      "zone": "JD"
+    },
+    {
+      "hostname": "AS-LAB-3750-2",
+      "is_uplink": false,
+      "local_port": "TenGigabitEthernet1/1/1",
+      "neighbor": "",
+      "remote_port": "",
+      "timestamps": "2016-03-15 13:03:25",
+      "zone": "JD"
+    },
+    {
+      "hostname": "AS-LAB-3750-2",
+      "is_uplink": false,
+      "local_port": "Vlan1",
+      "neighbor": "",
+      "remote_port": "",
+      "timestamps": "2016-03-15 13:03:25",
+      "zone": "JD"
+    },
+    {
+      "hostname": "AS-LAB-3750-2",
+      "is_uplink": false,
+      "local_port": "Vlan241",
+      "neighbor": "",
+      "remote_port": "",
+      "timestamps": "2016-03-15 13:03:25",
+      "zone": "JD"
+    },
+    {
+      "hostname": "AS-LAB-3750-2",
+      "is_uplink": false,
+      "local_port": "Vlan242",
+      "neighbor": "",
+      "remote_port": "",
+      "timestamps": "2016-03-15 13:03:25",
+      "zone": "JD"
+    },
+    {
+      "hostname": "AS-LAB-3750-2",
+      "is_uplink": false,
+      "local_port": "Vlan401",
+      "neighbor": "",
+      "remote_port": "",
+      "timestamps": "2016-03-15 13:03:25",
+      "zone": "JD"
+    },
+    {
+      "hostname": "AS-LAB-3750-2",
+      "is_uplink": false,
+      "local_port": "Vlan99",
+      "neighbor": "",
+      "remote_port": "",
+      "timestamps": "2016-03-15 13:03:25",
+      "zone": "JD"
+    },
+    {
+      "hostname": "AS-LAB-3750-3",
+      "is_uplink": false,
+      "local_port": "Vlan1",
+      "neighbor": "",
+      "remote_port": "",
+      "timestamps": "2016-03-15 13:03:25",
+      "zone": "JD"
+    },
+    {
+      "hostname": "AS-LAB-3750-3",
+      "is_uplink": false,
+      "local_port": "Vlan241",
+      "neighbor": "",
+      "remote_port": "",
+      "timestamps": "2016-03-15 13:03:25",
+      "zone": "JD"
+    },
+    {
+      "hostname": "AS-LAB-3750-3",
+      "is_uplink": false,
+      "local_port": "Vlan242",
+      "neighbor": "",
+      "remote_port": "",
+      "timestamps": "2016-03-15 13:03:25",
+      "zone": "JD"
+    }
+  ],
+  "total_number": 60
+}

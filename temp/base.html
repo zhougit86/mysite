@@ -1,0 +1,51 @@
+<html>
+<head><title>result</title></head>
+
+<body>
+
+<h1>interface</h1>
+
+
+<table border="1">
+    <td>{{ interface }}</td>
+    <td>Up or down: {{ interface.status }}</td>
+    <td>fcid: {{ interface.fcid }}</td>
+    <td>WWPN: {{ interface.wwpn }}</td>
+    <td>description: {{ interface.description }}</td>
+</table>
+<hr />
+
+
+
+<p><strong>zone info for the {{interface.name}}</strong></p>
+<table border="1">
+{% for item in zone_list %}
+    <tr>
+        <td><strong style="color:#0066CC">{{ item }}</strong></td>,
+    </tr>
+        {% for int in item.interface %}
+        <tr>
+            <td>{{int}}</td>
+            <td>status: {{ int.status }}</td>
+            <td>WWPN: {{ int.wwpn }}</td>
+            <td>rx: {{ int.power }}</td>
+            <td>lastchange:{{int.lastchange}}</td>
+            <td>description: {{ int.description }}</td>
+        </tr>
+        {% endfor %}
+{% endfor %}
+</table>
+
+
+
+<button onclick="window.history.back();">return</button>
+
+
+
+<!--document.write("<p>List</p>");-->
+
+
+
+
+</body>
+</html>
